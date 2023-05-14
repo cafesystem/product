@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{824160AC-4814-4F28-A199-E3E45F509937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeSystem.ProductManagement.Contracts", "src\CafeSystem.ProductManagement.Contracts\CafeSystem.ProductManagement.Contracts.csproj", "{B651E2AA-47E1-45FF-A6BF-A717F3F0F618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeSystem.ProductManagement", "src\CafeSystem.ProductManagement\CafeSystem.ProductManagement.csproj", "{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B651E2AA-47E1-45FF-A6BF-A717F3F0F618} = {824160AC-4814-4F28-A199-E3E45F509937}
+		{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED} = {824160AC-4814-4F28-A199-E3E45F509937}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B651E2AA-47E1-45FF-A6BF-A717F3F0F618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B651E2AA-47E1-45FF-A6BF-A717F3F0F618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B651E2AA-47E1-45FF-A6BF-A717F3F0F618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B651E2AA-47E1-45FF-A6BF-A717F3F0F618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9E5F1B-9EA6-4438-90B0-9045D4DBF0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
