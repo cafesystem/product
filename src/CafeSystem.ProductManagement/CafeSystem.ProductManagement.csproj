@@ -4,10 +4,30 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>CafeSystem.ProductManagement.Contracts</RootNamespace>
+        <AssemblyName>CafeSystem.ProductManagement.Contracts</AssemblyName>
+        <PackageId>CafeSystem.ProductManagement.Contracts</PackageId>
+        <Title>Contracts for CafeSystem ProductManagement module</Title>
+        <Description>
+            Provides contrats needed for ProductManagement module.
+        </Description>
+        <Copyright>(c) 2022 Iman Nemati</Copyright>
+        <PackageProjectUrl>https://github.com/cafesystem/product</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/cafesystem/product/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/cafesystem/product</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>ProductManagement, DDD, Product</PackageTags>
+        <Version>0.0.1</Version>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Domain" />
+        <PackageReference Include="CafeSystem.Domain" Version="1.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CafeSystem.ProductManagement.Contracts\CafeSystem.ProductManagement.Contracts.csproj" />
+    </ItemGroup>
+    
 </Project>
