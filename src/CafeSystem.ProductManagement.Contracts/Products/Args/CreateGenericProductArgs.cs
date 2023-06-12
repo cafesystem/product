@@ -1,8 +1,7 @@
 namespace CafeSystem.ProductManagement.Contracts;
 
-public class UpdateGenericProductCommand
+public class CreateGenericProductArgs
 {
-    public ProductId Id { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
     public ProductNature Nature { get; set; }

@@ -8,7 +8,7 @@ public partial class Product : AggregateRoot<ProductId>
 {
 
 
-    private Product(CreateGenericProductCommand command) : base()
+    private Product(CreateGenericProductArgs command) : base()
     {
         if (command is null) throw new ArgumentNullException(nameof(command));
         
